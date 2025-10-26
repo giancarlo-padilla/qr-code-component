@@ -5,12 +5,90 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/png" href="/favicon-32x32.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+		<title>Frontend Mentor | QR code component</title>
 	</head>
 	<body>
-		<h1>Astro</h1>
+		<div class="parent">
+			<div class="container">
+				<img class="qr-code" src="/public/image-qr-code.png" alt="">
+				<h1>Improve your front-end skills by building projects</h1>
+				<p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+			</div>
+			<div class="attribution">
+				Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+				Coded by <a href="#">Giancarlo Padilla</a>.
+			</div>
+		</div>
+
 	</body>
 </html>
+
+<style>
+	:root {
+		--slate300: #d6e2f0;
+		--slate500: #68778d;
+		--slate900: #1f3251;
+	}
+	* {
+		margin: 0;
+		padding: 0;
+		font-family: "Outfit", sans-serif;
+		font-optical-sizing: auto;
+		font-style: normal;
+	}
+	body {
+		background-color: var(--slate300);
+	}
+	h1 {
+		max-width: 90%;
+		font-size: 24px;
+		font-weight: 700;
+		line-height: 28px;
+		color: var(--slate900);
+	}
+	p {
+		max-width: 85%;
+		padding-bottom: 16px;
+		font-size: 15px;
+		font-weight: 400;
+		line-height: 20px;
+		color: var(--slate500);
+	}
+	.parent {
+		border: 2px solid black;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+	}
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 26px;
+		width: 320px;
+		padding: 16px;
+		border-radius: 24px;
+		text-align: center;
+		background-color: white;
+		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	}
+	.qr-code {
+		width: 100%;
+		border-radius: 12px;
+	}
+	.attribution { 
+		font-size: 11px; 
+		text-align: center; 
+	}
+	.attribution a { 
+		color: hsl(228, 45%, 44%); 
+	}
+</style>

@@ -1,43 +1,25 @@
-# Astro Starter Kit: Minimal
+# Frontend Mentor - QR code component solution
 
-```sh
-npm create astro@latest -- --template minimal
-```
+This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Table of contents
 
-## 🚀 Project Structure
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+  - [Author](#author)
 
-Inside of your Astro project, you'll see the following folders and files:
+## Overview
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+### Screenshot
+![QR Code Card](/public/screenshot.png)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Links
+- Solution URL: [Frontend Mentor](https://your-solution-url.com)
+- Live Site URL: [Github Page](https://your-live-site-url.com)
+- [Astro 5.15](https://astro.build/)
+- [Box Shadows](https://getcssscan.com/css-box-shadow-examples) - Neat library of some good looking box shadows
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+## Author
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Frontend Mentor - [@giancarlo-padilla](https://www.frontendmentor.io/profile/giancarlo-padilla)

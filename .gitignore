@@ -1,3 +1,8 @@
+*.sketch
+*.fig
+*.xd
+
+
 # build output
 dist/
 # generated types
@@ -12,6 +17,8 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
+learning/
+
 
 # environment variables
 .env
@@ -19,6 +26,7 @@ pnpm-debug.log*
 
 # macOS-specific files
 .DS_Store
+.prettierignore
 
 # jetbrains setting folder
 .idea/
