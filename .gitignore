@@ -2,9 +2,6 @@
 *.fig
 *.xd
 
-
-# build output
-dist/
 # generated types
 .astro/
 
